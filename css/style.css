@@ -41,7 +41,8 @@ a:hover { color: #888; }
 
 .inner {
     padding:3em; color:#fff;
-    background: rgba(101,101,101,0.5);    
+    background: rgba(101,101,101,0.5);
+    font-weight: 300; 
 }
 
 .nav > li > a {
@@ -56,8 +57,10 @@ a:hover { color: #888; }
   background-color: transparent;
 }
 
-.special { margin:30px 0; color:#888; font-weight:300; text-align:center; }
-.special p { font-size: 18pt; margin-bottom: 5px; }
+.special { margin:30px 0; font-weight:300; text-align:center; }
+.special p { font-size: 19pt; margin-bottom: 5px; }
+
+.chinese { font-family: 'SimSun';}
 
 .service-item { font-weight:300; margin: 15px 0; }
 
@@ -105,7 +108,7 @@ a:hover { color: #888; }
       float:right; margin-right:60px;
   }
   .banner { min-height: 600px;}
-  .inner { width: 480px; font-weight:300; }  
+  .inner { width: 480px; }  
   .inner p { font-size: 22pt; }
   .inner p:first-child { font-size: 38pt; }
 }
